@@ -5,35 +5,122 @@
         <meta name="description" content="Este es un reto de una lista">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reto lista anidada</title>
+        <style>
+            body{
+                background-image: linear-gradient(95deg, #00ffff 0, #41f5ff 25%, #53bcf2 50%, #5087ab 75%, #425a6e 100%);
+                width: 100%;
+            }
+            header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h1{
+                background-color:rgb(28 13 13 / 12%);
+                width: 30%;
+                height:70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius:20px;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+            ol{
+                display: flex;
+                justify-content: center;
+                margin-bottom:54px;
+                background-color: #2c1e1570;
+                width: 62%;
+                border-radius: 21px;
+                height:42vh;
+            }
+            li{
+                display: flex;
+                flex-direction: column;
+                margin: 20px;
+                font-size: 20px;
+                font-weight:bold;
+                width: 100%;
+            }
+            li a{
+                text-decoration:none;
+                color: black;
+                margin-bottom:20px;
+            }
+            img{
+                width:90%;
+                height:90%;
+                object-fit:cover;
+                border-radius:25px;
+            }
+        </style>
     </head>
     <body>
         <header>
-            <p>Desafio</p>
             <h1>Soy la lista del super!</h1>
         </header>
         <main>
             <ul>
                 <li>Frutas</li>
                 <ol>
-                    <li><a href="https://www.google.com/search?q=receta+de+pi%C3%B1a&rlz=1C1PDZP_esMX777MX777&oq=receta+de+pi%C3%B1a&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Piña🍍</a></li>
-                    <li><a href="https://www.google.com/search?q=receta+de+melon&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=NeBvZqG0DbnIp84P26Kj4AI&ved=0ahUKEwjhopC3ieKGAxU55MkDHVvRCCwQ4dUDCBA&uact=5&oq=receta+de+melon&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3JlY2V0YSBkZSBtZWxvbjIFEAAYgAQyBRAAGIAEMgcQABiABBgKMgUQABiABDIFEAAYgAQyBxAAGIAEGAoyBxAAGIAEGAoyBRAAGIAEMgYQABgWGB4yBhAAGBYYHkiMIVDUBFjPHXABeAGQAQCYAYYBoAHOB6oBAzQuNbgBA8gBAPgBAZgCCqACuQjCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICChAAGIAEGEMYigXCAggQABiABBixA8ICCxAAGIAEGLEDGIMBmAMAiAYBkAYKkgcDMy43oAegMg&sclient=gws-wiz-serp">Melon🍊</a></li>
-                    <li><a href="https://www.google.com/search?q=receta+de+sandia&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=UOBvZtHJHLHhp84PidGEqA4&ved=0ahUKEwjRsY_EieKGAxWx8MkDHYkoAeUQ4dUDCBA&uact=5&oq=receta+de+sandia&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJlY2V0YSBkZSBzYW5kaWEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgYQABgWGB4yCBAAGBYYHhgPMgYQABgWGB4yBhAAGBYYHjIIEAAYFhgeGA8yBhAAGBYYHkiyE1DGBFjqEXABeAGQAQCYAWegAdoHqgEEMTAuMbgBA8gBAPgBAZgCDKACrgjCAgoQABiwAxjWBBhHwgIKEAAYgAQYQxiKBcICBxAAGIAEGArCAgsQABiABBixAxiDAcICCBAAGIAEGLEDmAMAiAYBkAYIkgcDOS4zoAftPg&sclient=gws-wiz-serp">Sandia🍉</a></li>
+                    <li>
+                    <a href="https://www.google.com/search?q=receta+de+pi%C3%B1a&rlz=1C1PDZP_esMX777MX777&oq=receta+de+pi%C3%B1a&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Piña🍍</a>
+                    <img src="https://www.gob.mx/cms/uploads/image/file/415269/pi_a_1.jpg" alt="piña">
+                    </li>
+
+                    <li><a href="https://www.google.com/search?q=receta+de+melon&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=NeBvZqG0DbnIp84P26Kj4AI&ved=0ahUKEwjhopC3ieKGAxU55MkDHVvRCCwQ4dUDCBA&uact=5&oq=receta+de+melon&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3JlY2V0YSBkZSBtZWxvbjIFEAAYgAQyBRAAGIAEMgcQABiABBgKMgUQABiABDIFEAAYgAQyBxAAGIAEGAoyBxAAGIAEGAoyBRAAGIAEMgYQABgWGB4yBhAAGBYYHkiMIVDUBFjPHXABeAGQAQCYAYYBoAHOB6oBAzQuNbgBA8gBAPgBAZgCCqACuQjCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICChAAGIAEGEMYigXCAggQABiABBixA8ICCxAAGIAEGLEDGIMBmAMAiAYBkAYKkgcDMy43oAegMg&sclient=gws-wiz-serp">Melon🍊</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVN9PJzyi5GNeBFWqx6ddv5xHXqi2axdV3Eg&s" alt="melon">
+                    </li>
+
+
+                    <li><a href="https://www.google.com/search?q=receta+de+sandia&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=UOBvZtHJHLHhp84PidGEqA4&ved=0ahUKEwjRsY_EieKGAxWx8MkDHYkoAeUQ4dUDCBA&uact=5&oq=receta+de+sandia&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJlY2V0YSBkZSBzYW5kaWEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgYQABgWGB4yCBAAGBYYHhgPMgYQABgWGB4yBhAAGBYYHjIIEAAYFhgeGA8yBhAAGBYYHkiyE1DGBFjqEXABeAGQAQCYAWegAdoHqgEEMTAuMbgBA8gBAPgBAZgCDKACrgjCAgoQABiwAxjWBBhHwgIKEAAYgAQYQxiKBcICBxAAGIAEGArCAgsQABiABBixAxiDAcICCBAAGIAEGLEDmAMAiAYBkAYIkgcDOS4zoAftPg&sclient=gws-wiz-serp">Sandia🍉</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS11myXifLxM6s3MQh4mU0ELrmK80m-iISQmg&s" alt="sandia">
+                    </li>
                 </ol>
             </ul>
             <ul>
                 <li>Carnes</li>
                 <ol>
-                    <li><a href="https://www.google.com/search?q=receta+de+pollo&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=X-BvZsbrDoTDp84PjO2_CA&ved=0ahUKEwiGl5XLieKGAxWE4ckDHYz2DwEQ4dUDCBA&uact=5&oq=receta+de+pollo&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3JlY2V0YSBkZSBwb2xsbzIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI_hdQ8QRYkBZwAXgBkAEAmAFvoAHOB6oBBDEwLjG4AQPIAQD4AQGYAgygAp4IwgIKEAAYsAMY1gQYR8ICChAAGIAEGEMYigXCAgcQABiABBgKmAMAiAYBkAYIkgcEMTAuMqAH3D8&sclient=gws-wiz-serp">Pollo🍗</a></li>
-                    <li><a href="https://www.google.com/search?q=receta+de+cecina&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=cuBvZteAN6DBp84P4vaPuAY&ved=0ahUKEwjXgcXUieKGAxWg4MkDHWL7A2cQ4dUDCBA&uact=5&oq=receta+de+cecina&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJlY2V0YSBkZSBjZWNpbmEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESNsTUNsEWKsScAF4AZABAJgBdaAB_weqAQM5LjK4AQPIAQD4AQGYAgygAtEIwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg0QABiABBixAxhDGIoFwgIKEAAYgAQYQxiKBcICCBAAGIAEGLEDwgIHEAAYgAQYCsICChAAGIAEGLEDGAqYAwCIBgGQBgqSBwM3LjWgB9Q_&sclient=gws-wiz-serp">Cecina🥩</a></li>
-                    <li><a href="https://www.google.com/search?q=receta+de+pescado&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=huBvZrXjFti_p84Pg7yy6A8&oq=receta+de+pes&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXJlY2V0YSBkZSBwZXMqAggBMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEifIlCOBVimGHADeAGQAQCYAZIBoAGDCKoBBDEwLjG4AQPIAQD4AQGYAg6gAuMIwgIKEAAYsAMY1gQYR8ICChAAGIAEGEMYigXCAgoQABiABBixAxgKwgIHEAAYgAQYCsICCBAAGIAEGLEDwgIIEAAYFhgKGB7CAgYQABgWGB7CAgoQABgWGAoYHhgPwgIHEAAYgAQYDZgDAIgGAZAGCJIHAzkuNaAHgEE&sclient=gws-wiz-serp">Pescado🐟</a></li>
+                    <li><a href="https://www.google.com/search?q=receta+de+pollo&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=X-BvZsbrDoTDp84PjO2_CA&ved=0ahUKEwiGl5XLieKGAxWE4ckDHYz2DwEQ4dUDCBA&uact=5&oq=receta+de+pollo&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3JlY2V0YSBkZSBwb2xsbzIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI_hdQ8QRYkBZwAXgBkAEAmAFvoAHOB6oBBDEwLjG4AQPIAQD4AQGYAgygAp4IwgIKEAAYsAMY1gQYR8ICChAAGIAEGEMYigXCAgcQABiABBgKmAMAiAYBkAYIkgcEMTAuMqAH3D8&sclient=gws-wiz-serp">Pollo🍗</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHcYE0-H8sn6gJdSov4tmvSrPURVrHliYKVw&s" alt="piezas de pollo">
+                    </li>
+
+
+
+                    <li><a href="https://www.google.com/search?q=receta+de+cecina&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=cuBvZteAN6DBp84P4vaPuAY&ved=0ahUKEwjXgcXUieKGAxWg4MkDHWL7A2cQ4dUDCBA&uact=5&oq=receta+de+cecina&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJlY2V0YSBkZSBjZWNpbmEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESNsTUNsEWKsScAF4AZABAJgBdaAB_weqAQM5LjK4AQPIAQD4AQGYAgygAtEIwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg0QABiABBixAxhDGIoFwgIKEAAYgAQYQxiKBcICCBAAGIAEGLEDwgIHEAAYgAQYCsICChAAGIAEGLEDGAqYAwCIBgGQBgqSBwM3LjWgB9Q_&sclient=gws-wiz-serp">Cecina🥩</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGxJaU2U6dLgVfaki3RpvvJQQkifTv5ZZHQ&s" alt="carne cecina">
+                    </li>
+
+
+
+                    <li><a href="https://www.google.com/search?q=receta+de+pescado&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=huBvZrXjFti_p84Pg7yy6A8&oq=receta+de+pes&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXJlY2V0YSBkZSBwZXMqAggBMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEifIlCOBVimGHADeAGQAQCYAZIBoAGDCKoBBDEwLjG4AQPIAQD4AQGYAg6gAuMIwgIKEAAYsAMY1gQYR8ICChAAGIAEGEMYigXCAgoQABiABBixAxgKwgIHEAAYgAQYCsICCBAAGIAEGLEDwgIIEAAYFhgKGB7CAgYQABgWGB7CAgoQABgWGAoYHhgPwgIHEAAYgAQYDZgDAIgGAZAGCJIHAzkuNaAHgEE&sclient=gws-wiz-serp">Pescado🐟</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1B6zUYTo7IKLlpRYAZNbUk3BTzjrzCmAsHA&s" alt="pescado crudo">
+                    </li>
                 </ol>
             </ul>
             <ul>
                 <li>Verduras</li>
                 <ol>
-                    <li><a href="https://www.google.com/search?q=receta+de+zanahoria&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=lOBvZo3wBPLAp84P3N6AmA4&oq=receta+de+zan&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXJlY2V0YSBkZSB6YW4qAggAMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjOH1DNB1jNGHABeAGQAQCYAXOgAZAHqgEDOC4yuAEDyAEA-AEBmAILoALbB8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIKEAAYgAQYQxiKBcICCBAAGIAEGLEDwgIHEAAYgAQYCpgDAIgGAZAGCpIHAzcuNKAH9jk&sclient=gws-wiz-serp">Zanahoria🥕</a></li>
-                    <li><a href="https://www.google.com/search?q=receta+de+papa&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=pOBvZp6CK5rEp84Pp-CosA0&ved=0ahUKEwie5KTsieKGAxUa4skDHScwCtYQ4dUDCBA&uact=5&oq=receta+de+papa&gs_lp=Egxnd3Mtd2l6LXNlcnAiDnJlY2V0YSBkZSBwYXBhMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjFFVDABFiVFHABeAGQAQCYAXGgAZAJqgEEMTIuMbgBA8gBAPgBAZgCCqAC3gbCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDRAuGIAEGLADGEMYigXCAgoQABiABBhDGIoFwgIHEAAYgAQYCsICCBAAGIAEGLEDmAMAiAYBkAYKkgcDOS4xoAemSQ&sclient=gws-wiz-serp">Papa🥔</a></li>
-                    <li><a href="https://www.google.com/search?q=receta+de+brocoli&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=sOBvZvKwGajFp84P6baiwA4&ved=0ahUKEwjyyO_xieKGAxWo4skDHWmbCOgQ4dUDCBA&uact=5&oq=receta+de+brocoli&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YSBkZSBicm9jb2xpMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjZGlC5BFiSFnABeAGQAQCYAXugAaQIqgEDOC4zuAEDyAEA-AEBmAIMoAKFCcICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIKEAAYgAQYQxiKBcICCBAAGIAEGLEDmAMAiAYBkAYKkgcDNy41oAfAPQ&sclient=gws-wiz-serp">Brocoli🥦</a></li>
+                    <li><a href="https://www.google.com/search?q=receta+de+zanahoria&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=lOBvZo3wBPLAp84P3N6AmA4&oq=receta+de+zan&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXJlY2V0YSBkZSB6YW4qAggAMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjOH1DNB1jNGHABeAGQAQCYAXOgAZAHqgEDOC4yuAEDyAEA-AEBmAILoALbB8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIKEAAYgAQYQxiKBcICCBAAGIAEGLEDwgIHEAAYgAQYCpgDAIgGAZAGCpIHAzcuNKAH9jk&sclient=gws-wiz-serp">Zanahoria🥕</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_TL7BLhr4o867idy2XFjKOeW3Bft5HQb8Eg&s" alt="zanahoria">
+                    </li>
+
+
+
+                    <li><a href="https://www.google.com/search?q=receta+de+papa&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=pOBvZp6CK5rEp84Pp-CosA0&ved=0ahUKEwie5KTsieKGAxUa4skDHScwCtYQ4dUDCBA&uact=5&oq=receta+de+papa&gs_lp=Egxnd3Mtd2l6LXNlcnAiDnJlY2V0YSBkZSBwYXBhMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjFFVDABFiVFHABeAGQAQCYAXGgAZAJqgEEMTIuMbgBA8gBAPgBAZgCCqAC3gbCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDRAuGIAEGLADGEMYigXCAgoQABiABBhDGIoFwgIHEAAYgAQYCsICCBAAGIAEGLEDmAMAiAYBkAYKkgcDOS4xoAemSQ&sclient=gws-wiz-serp">Papa🥔</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvsz-D9dWEze8S5m9KohznGADL0fcTHa0Ulg&s" alt="papa">
+                    
+                    </li>
+                    <li><a href="https://www.google.com/search?q=receta+de+brocoli&sca_esv=dad2937f84c7a69c&rlz=1C1PDZP_esMX777MX777&ei=sOBvZvKwGajFp84P6baiwA4&ved=0ahUKEwjyyO_xieKGAxWo4skDHWmbCOgQ4dUDCBA&uact=5&oq=receta+de+brocoli&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YSBkZSBicm9jb2xpMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjZGlC5BFiSFnABeAGQAQCYAXugAaQIqgEDOC4zuAEDyAEA-AEBmAIMoAKFCcICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIKEAAYgAQYQxiKBcICCBAAGIAEGLEDmAMAiAYBkAYKkgcDNy41oAfAPQ&sclient=gws-wiz-serp">Brocoli🥦</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLuPFJiUQeRFCB1exy87_aREdYYSgvLAe_dw&s" alt="Brocoli">
+
+                    </li>
                 </ol>
             </ul>
             
