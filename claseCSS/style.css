@@ -1,0 +1,18 @@
+/*Elemento*/
+p {
+    color: blue;
+    font-size: 40px;
+}
+
+/* class */
+
+.parrafo {
+    font-weight: bold;
+    color: red;
+}
+
+/* ID */
+#texto {
+    color: yellowgreen;
+    font-weight:bold;
+}
