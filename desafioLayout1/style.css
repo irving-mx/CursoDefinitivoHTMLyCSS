@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+main {
+    width:100vw;
+    height:92vh;
+}
+nav {
+    background-color: #f00d52eb;
+    position: relative;
+    width: 100vw;
+    height: 11vh;
+}
+ul{
+    display: inline-block;
+    list-style:none;
+    position: absolute;
+    right:2%;
+    top:20px;
+}
+li{
+    display:inline-block;
+    padding:10px;
+}
+figure.logo {
+    display: inline-block;
+    position: absolute;
+    left:20px;
+}
+figure.logo img{
+    width: 10vw;
+    height: 10vh;
+    object-fit:cover;
+}
+div.content{
+    background-color: black;
+    width: 100vw;
+    height: 81vh;
+    position: relative;
+}
+div.sidebar{
+    display:inline-block;
+    position: absolute;
+    width: 29vw;
+    background-color: black;
+    height: 75vh;
+    top:3%;
+    left:1%;
+}
+aside{
+    width: 89%;
+    background-color:  #cd74b04f;
+    height: 21%;
+    margin: 20px;
+    border-radius:4%;
+}
+figure.luffy img {
+    width: 30%;
+    height: 95%;
+    object-fit: cover;
+}
+figure.sanji img {
+    width: 50%;
+    height: 95%;
+    object-fit: cover;
+}
+figure.zoro img {
+    width: 24%;
+    height: 95%;
+    object-fit: cover;
+}
+figure.jinbei img {
+    width: 31%;
+    height: 95%;
+    object-fit: cover;
+}
+section{
+    display:inline-block;
+    position: absolute;
+    background-color: #da6eaa8f;
+    width: 66%;
+    right: 2%;
+    height: 93%;
+    top:3%;
+    border-radius:4%;
+}
+footer{
+    background-color: #f00d52eb;
+    width: 100%;
+    height: 8vh;
+}
+
