@@ -1,0 +1,157 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0; 
+}
+html {
+    font-size: 62.5%;
+}
+header{
+    width: 100vw;
+    height:9vh;
+    background-color:black;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+img.user{
+    border-radius:50%;
+}
+.nav-left {
+    margin-left:4%;
+    width:23vw;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.nav-right {
+    margin-right:4%;
+    width:28vw;
+    display:flex;
+    justify-content:space-between;
+}
+main {
+    width: 100vw;
+    height: 82vh;
+    background-color: black;
+}
+section{
+    width: 100vw;
+    background-color: black;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+img.section{
+    z-index: 1;
+    width: 100vw;
+    position: absolute;
+    height: 35vh;
+    filter: blur(.5375rem);
+    opacity: .5;
+}
+.section-img {
+    width: 88%;
+    height: 35vh;
+    object-fit: cover;
+    z-index: 2;
+}
+article {
+    width: 100vw;
+    height: 44vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:15px;
+}
+span {
+    background-color: black;
+    width: 89vw;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items:center;
+}
+p.title{
+    color:white;
+    font-size:3rem;
+}
+.compartir {
+    width:40px;
+    height:40px;
+}
+p{
+    color:white;
+    font-size: 1.2rem;;
+}
+
+p.info:before {
+    background-color: #a0a0a0;
+    content: "";
+    display: inline-block;
+    height: .25rem;
+    line-height: 1;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    width: .25rem;
+}
+div{
+    background-color: black;
+    width: 89vw;
+    display: flex;
+    height: 8vh;
+}
+.icono-estrella{
+    width: 35px;
+    height: 35px;
+}
+
+div.container{
+    background-color: black;
+    width:90vw;
+    height:20vh;
+}
+.img-video img {
+    width:240px;
+    height:160px;
+}
+span.info-video{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 46px;
+    height: 20vh;
+    justify-content: center;
+}
+p.p-1{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight:bold;
+}
+p.p-2{
+    font-size: 2rem; 
+    font-weight:bold;
+}
+footer{
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 9px;
+}
+li{
+    list-style: none;
+}
